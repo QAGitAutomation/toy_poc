@@ -21,9 +21,9 @@ public class GlobalNavTest {
 	    driver = new ChromeDriver();
 	    driver.manage().window().maximize();
 	    
-	    // Navigate to the Amazon.com home page
-	    driver.get("https://www.amazon.com/");
-	    
+	    // Navigate to the Toyota.com home page
+	    driver.get("https://www.toyota.com/");
+	    /*
 	    // Type "Software testing" in the search window
 	    driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Software Testing");
 	    
@@ -34,7 +34,7 @@ public class GlobalNavTest {
 	    driver.findElement(By.xpath("(//div[@id='resultsCol']//a[contains(@class,'access-detail-page')])[1]")).click();
 	    
 	    // Check that the page title contains the term "Software Testing"
-	    Assert.assertTrue(driver.getTitle().contains("Software Testing"));    
+	    Assert.assertTrue(driver.getTitle().contains("Software Testing"));    */
 
 	    // Close the browser
 	    driver.quit();    
