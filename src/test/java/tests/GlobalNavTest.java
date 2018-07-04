@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 
 import Automation.Tcom_POC.TestBaseSetup;
 import globals.switchWindows;
+import pages.Gnav_MainNav;
 import pages.Gnav_UtilityNav;
 
 public class GlobalNavTest extends TestBaseSetup{
@@ -36,6 +37,15 @@ public class GlobalNavTest extends TestBaseSetup{
 	    unav.EspLang();
 	    unav.searchOverlay();
 	    driver.navigate().back();
+	    Gnav_MainNav mnav = PageFactory.initElements(driver, Gnav_MainNav.class);
+	    
+	    mnav.ToyLogo();
+	    mnav.dealersLink();
+	    mnav.buildLink();
+	    mnav.localspecialsLink();
+		Thread.sleep(1000);
+		mnav.SelectVehicle();
+		mnav.ShoppingTools();
 		
 
 	    // Close the browser
