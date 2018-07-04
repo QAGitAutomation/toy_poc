@@ -203,4 +203,35 @@ public void SelectVehicle() throws Exception {
 		}
 	}
 	
+	public void ToyLogo()
+	{
+		Toyotalogo.click();
+	}
+	
+	
+	
+	public void dealersLink()
+	{
+		FindADealer.click();
+		Toyotalogo.click();
+	}
+	
+	public void buildLink()
+	{
+		BuildAndPrice.click();
+		Toyotalogo.click();
+	}
+	
+	public void localspecialsLink()
+	{
+		LocalSpecials.click();
+		Toyotalogo.click();
+		
+	}
+	
+		
+	
+	
+	
+	
 }
