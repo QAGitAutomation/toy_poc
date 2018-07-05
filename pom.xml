@@ -37,6 +37,20 @@
         <version>6.5.1</version>
         <scope>test</scope>
     </dependency>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-chrome-driver</artifactId>
+        <version>3.7.1</version>
+        <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-firefox-driver</artifactId>
+        <version>3.7.1</version>
+        <scope>test</scope>
+    </dependency>
+    
 </dependencies>
   
   </project>
